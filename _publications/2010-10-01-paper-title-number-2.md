@@ -2,7 +2,6 @@
 title: "An Experimental Analysis of Random Early Discard (RED) Queue for Congestion Control "
 collection: publications
 category: manuscripts
-permalink: https://www.ijcaonline.org/archives/volume15/number2/1920-2563/
 #excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
 date: February, 2011
 venue: 'International Journal of Computer Applications'

@@ -2,7 +2,6 @@
 title: "Use of peer code review to identify potential security vulnerabilities in open source software: A Systematic Literature Review"
 collection: publications
 category: manuscripts
-permalink: https://www.sciencedirect.com/science/article/pii/S0950584926002454?via%3Dihub
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: November, 2026
 venue: 'Information and Software Technology'
