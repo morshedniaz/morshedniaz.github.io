@@ -1,13 +1,9 @@
----
-layout: none
-permalink: /images/manifest.json
----
 {
-	"name": {{ site.title | jsonify }},
-	"short_name": {{ site.name | jsonify }},
-	"description": {{ site.description | jsonify }},
-	"start_url": "{{ site.baseurl | default: '/' }}",
-	"lang": {{ site.locale | default: "en" | jsonify }},
+	"name": "Md Niaz Morshed",
+	"short_name": "Md Niaz Morshed",
+	"description": "PhD Candidate in Computer Science at The University of Alabama",
+	"start_url": "/",
+	"lang": "en-US",
 	"icons": [
 		{
 			"src": "/images/favicon-192x192.png",
