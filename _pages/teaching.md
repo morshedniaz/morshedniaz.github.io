@@ -5,7 +5,7 @@ permalink: /teaching/
 author_profile: true
 ---
 
-### Dhaka University of Engineering & Technology
+### Dhaka University of Engineering & Technology (2012-2020)
 
 - Data Structures
 - Algorithm Design and Analysis
