@@ -5,8 +5,6 @@ permalink: /teaching/
 author_profile: true
 ---
 
-## Teaching Experience
-
 ### Dhaka University of Engineering & Technology
 
 - Data Structures
