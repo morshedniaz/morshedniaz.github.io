@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "sunrise" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Md Niaz Morshed"
 title_separator          : "-"
 name                     : &name "Md Niaz Morshed"
@@ -29,7 +29,7 @@ author:
   bio              : "PhD Candidate in Computer Science at The University of Alabama."
   location         : "Tuscaloosa, Alabama, USA"
   employer         : "The University of Alabama"
-  uri              : "https://morshedniaz.github.io/mdniazmorshed/"
+  uri              : "https://morshedniaz.github.io"
   email            : "mmorshed@crimson.ua.edu" 
 
   # Academic websites
