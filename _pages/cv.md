@@ -11,7 +11,7 @@ You can [download my complete CV](/files/Niaz_CV.pdf).
 
 Education
 ======
-* Ph.D.in Computer Science,University of Alabama 2027 Spring (expected)
+* Ph.D. in Computer Science,University of Alabama 2027 Spring (expected)
 * M.S. in Computer Science,University of Alabama, 2025
 * B.Sc in Computer Science and Engineering, Dhaka University of Engineering & Technology, 2010
 
