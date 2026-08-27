@@ -29,6 +29,12 @@
   }
 }
 
+/* Justify duties text under the Work experience section on the CV page */
+#work-experience + ul li ul li {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
