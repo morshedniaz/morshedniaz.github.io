@@ -7,18 +7,28 @@ author_profile: true
 
 ## Research Overview
 
-My research focuses on software security, empirical software engineering, and AI-assisted secure software development, with an emphasis on improving security vulnerability detection during peer code review.
+My research focuses on peer code review, software security, empirical software engineering, and AI-assisted secure software development. In particular, I investigate how generative AI can support peer code review and improve the detection of security vulnerabilities.
 
 ## Current Projects
 
-### Security-Focused Code Review
+### AI-Assisted Secure Code Review
 
-Investigating how peer code review supports security vulnerability detection in open-source software through systematic literature reviews and developer surveys.
+Developing data-driven and generative AI approaches to support security vulnerability detection and reasoning during peer code review.
 
-### AI-Based Security Assistant
+### Vulnerability Dataset for Security Research
 
-Developing a vulnerability dataset and LLM-based assistant to provide context-aware security insights during code review.
+Developing a curated vulnerability dataset that links security patches to vulnerable code changes and CWE information to support LLM-based vulnerability research.
 
 ### CIROH
 
-Analyzing survey data to understand hydrologic modeling practices and community needs and contributing to training resources for the NextGen framework.
+Analyzing community needs and software practices in hydrologic modeling and contributing to training resources for the NextGen framework.
+
+## Future Research Directions
+
+### Human-AI Collaboration and Agentic Code Review
+
+Investigating how generative and agentic AI can be integrated into real-world code review workflows while maintaining effective human oversight, trust, verification, and security.
+
+### Human and Organizational Factors in Software Security
+
+Studying how developer expertise, security training, collaboration practices, and project characteristics influence vulnerability detection and resolution in open-source software.

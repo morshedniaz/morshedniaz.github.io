@@ -90,19 +90,9 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-# Talks
-======
- # <ul>{% for post in site.talks reversed %}
-  #  {% include archive-single-talk-cv.html  %}
- # {% endfor %}</ul>
   
 Teaching
 ======
-  # <ul>{% for post in site.teaching reversed %}
-   # {% include archive-single-cv.html %}
-  # {% endfor %}</ul>
-### Dhaka University of Engineering & Technology, Bangladesh
-
 - Data Structures
 - Algorithm Design and Analysis
 - Compiler Design
@@ -120,4 +110,4 @@ Teaching
   
 Service and leadership
 ======
-* Vice President of UA Badminton club
+* Vice President of UA Badminton club (2022-2023)
