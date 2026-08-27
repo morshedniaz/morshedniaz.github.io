@@ -90,17 +90,33 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+# Talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+ # <ul>{% for post in site.talks reversed %}
+  #  {% include archive-single-talk-cv.html  %}
+ # {% endfor %}</ul>
   
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  # <ul>{% for post in site.teaching reversed %}
+   # {% include archive-single-cv.html %}
+  # {% endfor %}</ul>
+### Dhaka University of Engineering & Technology, Bangladesh
+
+- Data Structures
+- Algorithm Design and Analysis
+- Compiler Design
+- Artificial Intelligence
+- Discrete Mathematics
+- Numerical Methods
+- Microprocessor and Assembly Language
+- Computer Architecture
+- Computer Graphics
+- Data Communication and Networking
+- Operating Systems
+- Database Management Systems
+- Computer Programming
+- Digital Logic Design
   
 Service and leadership
 ======
