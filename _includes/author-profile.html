@@ -56,7 +56,15 @@
       {% if author.orcid %}
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
       {% endif %}
-      
+      {% comment %} Render LinkedIn (replace PubMed) - accept full URL or username {% endcomment %}
+      {% if author.linkedin %}
+        {% assign _ln = author.linkedin %}
+        {% if _ln contains "http" %}
+          <li><a href="{{ _ln }}"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
+        {% else %}
+          <li><a href="https://www.linkedin.com/in/{{ _ln }}"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
+        {% endif %}
+      {% endif %}
       {% if author.researchgate %}
         <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate icon-pad-right" aria-hidden="true"></i>ResearchGate</a></li>
       {% endif %}
@@ -83,15 +91,6 @@
       {% if author.dribbble %}
         <li><a href="https://dribbble.com/{{ author.dribbble }}"><i class="fab fa-fw fa-dribbble icon-pad-right" aria-hidden="true"></i>Dribbble</a></li>
       {% endif %}      
-      {% comment %} Place LinkedIn before GitHub per user preference {% endcomment %}
-      {% if author.linkedin %}
-        {% assign _ln = author.linkedin %}
-        {% if _ln contains "http" %}
-          <li><a href="{{ _ln }}"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
-        {% else %}
-          <li><a href="https://www.linkedin.com/in/{{ _ln }}"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
-        {% endif %}
-      {% endif %}
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub</a></li>
       {% endif %}

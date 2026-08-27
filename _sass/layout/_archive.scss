@@ -16,6 +16,8 @@
 
   a {
     text-decoration: underline;
+    /* Use regular text color for links on archive pages (avoid theme accent) */
+    color: var(--global-text-color);
 
     &:hover {
       text-decoration: underline;
