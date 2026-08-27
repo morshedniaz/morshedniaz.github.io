@@ -12,11 +12,11 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Md Niaz Morshed"
 title_separator          : "-"
 name                     : &name "Md Niaz Morshed"
-description              : &description "Md Niaz Morshed — software security and empirical software engineering"   # General site description
-url                      : https://morshedniaz.github.io/mdniazmorshed # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+description              : &description "PhD Candidate in Computer Science at The University of Alabama"   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : https://morshedniaz.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "morshedniaz/mdniazmorshed.github.io"
+#baseurl                  : "/mdniazmorshed" # the subpath of your site, e.g. "/blog"
+repository               : "morshedniaz/mdniazmorshed"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -26,10 +26,10 @@ author:
   avatar           : "profile.png"
   name             : "Md Niaz Morshed"
   pronouns         : "He/Him"
-  bio              : ""
+  bio              : "PhD Candidate in Computer Science at The University of Alabama."
   location         : "Tuscaloosa, Alabama, USA"
   employer         : "The University of Alabama"
-  uri              : "https://github.com/morshedniaz/mdniazmorshed"
+  uri              : "https://morshedniaz.github.io/mdniazmorshed/"
   email            : "mmorshed@crimson.ua.edu" 
 
   # Academic websites
