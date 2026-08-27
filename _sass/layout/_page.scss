@@ -70,6 +70,9 @@
         margin-top: -($indent-var);
       }
     }
+    /* justify paragraph text for better alignment */
+    text-align: justify;
+    text-justify: inter-word;
   }
 
   a {
