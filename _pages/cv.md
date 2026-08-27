@@ -41,7 +41,7 @@ Work experience
   * Duties included: I taught undergraduate courses, supervised student theses and projects, and contributed to curriculum development.
 
 * 2013-2020: Guest Lecturer
-  * Dhaka University of Engineering & Technology, Bangladesh
+  * Bangladesh Open University, Bangladesh
   * Duties included: I taught undergraduate courses, supervised student theses and projects.
 
 * 2011-2012: Senior Officer(IT) 
